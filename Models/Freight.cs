@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Models
+namespace LS.Models
 {
     public class Freight
     {

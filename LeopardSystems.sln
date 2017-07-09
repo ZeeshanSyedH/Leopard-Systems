@@ -31,7 +31,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LS.FunctionalUITests", "LS.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leopard", "Leopard\Leopard.csproj", "{CD66F300-46C7-4621-A17C-4E043A4CF456}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{7B59987D-65EF-4737-9050-ED25197C8464}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LS.Models", "Models\LS.Models.csproj", "{7B59987D-65EF-4737-9050-ED25197C8464}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

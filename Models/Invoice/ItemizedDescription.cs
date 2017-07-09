@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static LS.BL.Enums.GlobalEnums;
 
-namespace Models.Invoice
+namespace LS.Models.Invoice
 {
     public class ItemizedDescription
     {

@@ -7,8 +7,8 @@
     <ProjectGuid>{7B59987D-65EF-4737-9050-ED25197C8464}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Models</RootNamespace>
-    <AssemblyName>Models</AssemblyName>
+    <RootNamespace>LS.Models</RootNamespace>
+    <AssemblyName>LS.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
