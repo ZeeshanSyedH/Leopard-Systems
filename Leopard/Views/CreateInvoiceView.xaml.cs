@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Leopard.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,14 +14,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Leopard
+namespace Leopard.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CreateInvoice.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CreateInvoiceView : Page
     {
-        public MainWindow()
+        public CreateInvoiceView()
         {
             InitializeComponent();
         }
