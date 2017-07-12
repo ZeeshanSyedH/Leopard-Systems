@@ -63,7 +63,14 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Views\MainView.xaml.cs">
+      <DependentUpon>MainView.xaml</DependentUpon>
+    </Compile>
     <Page Include="Views\CreateInvoiceView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -98,12 +105,16 @@
   <ItemGroup>
     <Folder Include="Context\" />
     <Folder Include="DI\" />
+    <Folder Include="Views\SubViews\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LS.Core\LS.Core.csproj">
       <Project>{3f84f4fb-92d2-4ff0-ad1d-b5b2413bc02f}</Project>
       <Name>LS.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\LeopardSystems.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
